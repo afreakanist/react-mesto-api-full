@@ -1,0 +1,28 @@
+.user-form__input {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cccccc;
+  outline: none;
+  border: none;
+  border-bottom: #cccccc 2px solid;
+  width: 358px;
+  padding: 0 0 10px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  display: block;
+}
+
+.user-form__input:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .user-form__input {
+    width: 238px;
+  }
+}

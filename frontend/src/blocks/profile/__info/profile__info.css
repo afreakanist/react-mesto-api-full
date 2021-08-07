@@ -1,0 +1,17 @@
+.profile__info {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+
+
+@media screen and (max-width: 920px) {
+  .profile__info {
+    padding: 0 27px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .profile__info {
+    padding: 0;
+  }
+}

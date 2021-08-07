@@ -1,0 +1,10 @@
+.popup__field {
+  display: block;
+  min-height: 64px;
+}
+
+@media (max-width: 540px) {
+  .popup__field {
+    min-height: 79px;
+  }
+}

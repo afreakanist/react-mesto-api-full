@@ -1,0 +1,40 @@
+.profile__avatar-overlay {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 30px;
+  position: relative;
+}
+
+.profile__avatar-overlay:after {
+  content:'';
+  position: absolute;
+  width: 100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  background:rgba(0, 0, 0, 0.8);
+  background-image: url(../../../images/update-profile-pic-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.profile__avatar-overlay:hover::after {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 920px) {
+  .profile__avatar-overlay {
+    margin-left: 27px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile__avatar-overlay {
+    margin: 0;
+    justify-self: center;
+  }
+}
