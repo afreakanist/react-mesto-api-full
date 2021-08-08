@@ -4,6 +4,8 @@
 
 Сервис  `Mesto` — интерактивная страница со следующими возможностями: авторизация и регистрация пользователей, операции с карточками и пользователями.
 
-[Ссылка на сайт](https://mestoshmesto.nomoredomains.monster/)
+Ссылка на сайт: https://mestoshmesto.nomoredomains.monster/
+API: https://api.mestoshmesto.nomoredomains.monster/
+Публичный IP адрес сервера: 130.193.51.104
 
 Бэкенд расположен в директории `backend/`, а фронтенд — в `frontend/`. 
